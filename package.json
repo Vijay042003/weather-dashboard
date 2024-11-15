@@ -1,0 +1,20 @@
+{
+  "name": "iomp-project-weather-dashboard",
+  "version": "1.0.0",
+  "description": "A weather app made using OpenWeatherMap API in Vanilla JavaScript.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "express-session": "^1.18.1",
+    "hbs": "^4.2.0",
+    "mongodb": "^6.10.0"
+  }
+}

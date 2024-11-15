@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Dashboard</title>
+    <style>
+      /* General Reset */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: 'Arial', sans-serif;
+        background: linear-gradient(135deg, #6e7dff, #8c94ff);
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        text-align: center;
+        flex-direction: column;
+      }
+
+      h1 {
+        font-size: 3em;
+        margin-bottom: 30px;
+        color: #ffffff;
+      }
+
+      div {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+      }
+
+      button {
+        padding: 10px 20px;
+        font-size: 1.2em;
+        border: none;
+        border-radius: 10px;
+        background-color: #4caf50;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s, transform 0.2s;
+      }
+
+      button:hover {
+        background-color: #45a049;
+        transform: scale(1.05);
+      }
+
+      button:active {
+        transform: scale(1);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to Weather Dashboard</h1>
+    <div>
+      <button onclick="window.location.href='/login'">Login</button>
+      <button onclick="window.location.href='/register'">Register</button>
+    </div>
+  </body>
+</html>
